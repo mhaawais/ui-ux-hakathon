@@ -6,9 +6,9 @@ import Image from 'next/image';
 import { Poppins } from 'next/font/google';
 const myFonts = Poppins({ subsets: ['latin'] ,weight:['400','500','600','700','800'] });
 
-const Navbar = () => {
+const Header = () => {
   return ( 
-  <nav className='w-full h-[50px] md:h-[75px] lg:h-[100px] bg-[#FBEBB5]'>
+  <nav className='w-full h-[50px] md:h-[75px] lg:h-[100px] bg-[#FFFFFF]'>
 
         <div className='h-[24px] pl-[125px] md:pl-[250px] lg:pl-[305px] xl:pl-[500px] w-full'>
                <ul className='pt-4 space-x-5 lg:pt-9 lg:space-x-10'>
@@ -32,4 +32,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Header
