@@ -24,27 +24,182 @@ const Hero = () => {
 
       </div>
 
-          <div className='w-full h-[300px] md:h-[500px] lg:h-[672px]'>
-               <Image src='/Group 10.png' alt='tables' height={672} width={1440}  />
+         <div className='bg-[#FAF4F4] w-full h-[500px] lg:h-[672px] px-3 sm:px-[20px] lg:px-[100px] flex items-center'>
+
+          <div className='w-full h-[420px] lg:h-[562px]'>
+               <Image src='/Granite square side table 12.png' alt='tablepic' width={605} height={386}  />
+               <div className='pl-[80px]'>
+               <h1  className={`${myFonts.className} font-medium text-[24px] lg:text-[36px]`}>
+               Side table</h1>
+               <p  className={`${myFonts.className} font-medium text-[24px]`}>
+               <span className='border-b-2 border-black'>View More</span></p>
+               </div>
           </div>
-             
-          <div className='w-full h-[300px] md:h-[500px] lg:h-[777px]'>
-               <Image src='/Group 19.png' alt='tables2' height={777} width={1440}  />
+            
+          <div className='pl-7 w-full h-[420px] lg:h-[562px]'>
+               <Image src='/Seater1.png' alt='sofapic' width={605} height={357}   />
+               <div className='pl-[30px] lg:pl-[80px]'>
+               <h1  className={`${myFonts.className} font-medium text-[24px] lg:text-[36px]`}>
+               Side table</h1>
+               <p  className={`${myFonts.className} font-medium text-[24px]`}>
+               <span className='border-b-2 border-black'>View More</span></p>
+               </div>
+          </div>
+     </div>
+
+
+
+     <div className='w-full h-[500px] lg:h-[777px] px-3 sm:px-[20px] lg:px-[100px] bg-[#FFFFFF]'>
+
+          <div className='text-center pt-3 sm:pt-5 lg:pt-16'>
+           <h1  className={`${myFonts.className} font-medium text-[24px] lg:text-[36px]`}>
+                Top Picks For You</h1>
+           <p  className={`${myFonts.className} font-medium text-[16px]  text-[#9F9F9F]`}>
+               Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.
+           </p>
+           </div>
+
+           <div className='flex gap-8 sm:pt-[50px] lg:pt-[100px]'> 
+
+               <div className='w-full h-[250px] lg:h-[372px]'>
+                    <Image src='/Mask Group.png' alt='maskpic' width={287} height={287} />
+                    <p  className={`${myFonts.className} text-[16px]`}>
+                        Trenton modular sofa_3</p>
+                      <h1  className={`${myFonts.className} font-medium text-[20px] lg:text-[24px]`}>
+                        Rs. 25,000.00</h1>
+               </div>
+
+               <div className='w-full h-[250px] lg:h-[397px]'>
+                    <Image src='/Mask Group (1).png' alt='maskpic2' width={287} height={287} />
+                    <p  className={`${myFonts.className} text-[16px]`}>
+                        Granite dining table with dining chair</p>
+                      <h1  className={`${myFonts.className} font-medium text-[20px] lg:text-[24px]`}>
+                        Rs. 25,000.00</h1>
+               </div>
+ 
+               <div className='w-full h-[250px] lg:h-[397px]'>
+                    <Image src='/Mask Group (2).png' alt='maskpic3' width={287} height={287} />
+                    <p  className={`${myFonts.className} text-[16px]`}>
+                         Outdoor bar table and stool</p>
+                      <h1  className={`${myFonts.className} font-medium text-[20px] lg:text-[24px]`}>
+                        Rs. 25,000.00</h1>
+               </div>
+                   
+               <div className='w-full h-[250px] lg:h-[397px]'>
+                    <Image src='/Mask Group (3).png' alt='maskpic4' width={287} height={287} />
+                    <p className={`${myFonts.className} text-[16px]`}>
+                       Plain console with teak mirror</p>
+                      <h1  className={`${myFonts.className} font-medium text-[20px] lg:text-[24px]`}>
+                        Rs. 25,000.00</h1>
+               </div>
+
+                    
+       </div>
+
+                <div className='text-center'>
+                <p  className={`${myFonts.className} font-medium text-[24px]`}>
+                    <span className='border-b-2 border-black'>View More</span></p>
+               </div>
+
+   </div>
+
+
+
+     <div className='w-full h-[300px] sm:h-[400px] lg:h-[639px] bg-[#FFF9E5] flex items-center'>
+
+          <div className='image'>
+                <Image src='/Asgaard sofa 12.png' alt='new sofa' width={883} height={603}   />
           </div>
 
-          <div className='w-full h-[300px] md:h-[500px] lg:h-[750px]'>
-               <Image src='/Group 23.png' alt='tables2sofas' height={750} width={1440}  />
+          <div className='text-center'>
+
+          <p  className={`${myFonts.className} font-medium text-[24px]`}>
+             New Arrivals</p>
+           <h2 className={`${myFonts.className} font-bold text-[34px] md:text-[48px]`}>
+              Asgaard sofa
+           </h2>
+            <button className='solid border-2 border-black'><p className={`${myFonts.className} text-[20px] px-10 py-4`}>
+              Order Now</p></button>
+               
           </div>
 
-          <div className='w-full h-[300px] md:h-[500px] lg:h-[944px]'>
-               <Image src='/Group 54.png' alt='tables2new' height={944} width={1440}  />
+     </div>
+
+
+
+   <div className='w-full h-[600px] lg:h-[900px]  px-3 sm:px-[20px] lg:px-[100px] bg-[#FFFFFF]'>
+
+          <div className='text-center pt-3 sm:pt-5 lg:pt-16'>
+             <h1  className={`${myFonts.className} font-medium text-[24px] lg:text-[36px]`}>
+                    Our Blogs</h1>
+           <p  className={`${myFonts.className} font-medium text-[16px]  text-[#9F9F9F]`}>
+               Find a bright ideal to suit your taste with our great selection
+             </p>
           </div>
 
-          <div className='w-full h-[200px] md:h-[300px] lg:h-[450px]'>
-               <Image src='/Group 47.png' alt='tables2old' height={450} width={1440}  />
-          </div>
+     
+       <div className='flex gap-5 pt-4 sm:pt-[40px] lg:pt-[70px]'> 
 
-    </section>
+               <div className='w-full h-[370px] lg:h-[555px] md:space-y-5 grid place-items-center'>
+                  <Image src='/Rectangle 13.png' alt='keyboardpic' width={393} height={393}  />
+                    <p  className={`${myFonts.className} text-[20px]`}>
+                       Going all-in with millennial design</p>
+                    <p  className={`${myFonts.className} font-medium text-[24px]`}>
+                        <span className='border-b-2 border-black'>Read More</span></p>
+                    <Image src='/Group 37.png' alt='laptopglass' width={223}  height={24}/>
+               </div>
+
+               <div className='w-full h-[370px] lg:h-[555px] md:space-y-5 grid place-items-center'>
+                  <Image src='/Rectangle 14.png' alt='glasslaptop' width={393} height={393} />
+                    <p  className={`${myFonts.className} text-[20px]`}>
+                       Going all-in with millennial design</p>
+                    <p  className={`${myFonts.className} font-medium text-[24px]`}>
+                        <span className='border-b-2 border-black'>Read More</span></p>
+                    <Image src='/Group 37.png' alt='laptopglass' width={223}  height={24}  />
+               </div>
+ 
+               <div className='w-full h-[370px] lg:h-[555px] md:space-y-5 grid place-items-center'>
+                  <Image src='/Rectangle 15.png' alt='mouselaptop' width={393} height={393} />
+                    <p  className={`${myFonts.className} text-[20px]`}>
+                       Going all-in with millennial design</p>
+                    <p  className={`${myFonts.className} font-medium text-[24px]`}>
+                        <span className='border-b-2 border-black'>Read More</span></p>
+                    <Image src='/Group 37.png' alt='laptopglass' width={223}  height={24}  />
+               </div>
+
+        </div>
+
+                <div className='text-center mt-1 sm:mt-2 lg:mt-10'>
+                   <p  className={`${myFonts.className} font-medium text-[24px]`}>
+                      <span className='border-b-2 border-black'>View All Post</span></p>
+                 </div>
+
+  </div>  
+
+
+     <div className='w-full relative'>
+     
+         <Image src='/Group 43.png' alt='bgimage' width={1440} height={450}  />
+
+            <div className='absolute inset-0 flex flex-col justify-center items-center'>
+
+               <h2 className={`${myFonts.className} font-bold text-[34px] md:text-[48px] lg:text-[60px]`}>
+                  Our Instagram
+                </h2>
+                <p className={`${myFonts.className} text-[20px]`}>
+                   Follow our store on Instagram
+                </p>
+                <button className='bg-[#FAF4F4] border-4 border-solid rounded-[50px]'>  
+                   <p className={`${myFonts.className} text-[20px] px-12 py-3`}>
+                     Follow Us
+                   </p> </button>
+              
+              </div>
+
+     </div>
+               
+
+</section>
   )
 }
 

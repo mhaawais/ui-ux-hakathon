@@ -12,10 +12,13 @@ const myFonts = Poppins({
 const AboutUs = () => {
   return (
     
+    //  sir this section is made by chatgpat because its not part of design but i considered  it to make my buttons responsive linking to show only,
+    
     <section className='w-full bg-[#F8F8F8] py-16 px-6 md:px-12 lg:px-24'>
-      <Header />
-      <div className='max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12'>
 
+      <Header />
+
+      <div className='max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12'>
         {/* Text Section */}
         <div className='w-full md:w-1/2'>
           <h2 className={`${myFonts.className} text-3xl md:text-4xl font-bold text-gray-800 mb-6`}>
@@ -32,7 +35,9 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+
       <Footer />
+
     </section>
   );
 };
