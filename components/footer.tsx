@@ -11,7 +11,7 @@ const Footer = () => {
   return ( 
 <footer className='w-full h-[350px] lg:h-[490px] bg-[#FFFFFF]'>
     
-       <div className='w-full h-[200px] lg:h-[419px] pl-[10px] sm:pl-[40px] md:pl-[80px] mt-[5px] lg:mt-[90px]'>
+       <div className='w-full h-[200px] lg:h-[419px] px-[10px] sm:px-[40px] md:px-[80px] pt-[5px] lg:pt-[90px]'>
              <div className='h-[200px] lg:h-[312px] flex'>
                 <div>
                    <p className={`${myFonts.className} pt-[50px] lg:pt-[110px] text-[16px] text-[#9F9F9F]`}>
@@ -51,7 +51,7 @@ const Footer = () => {
       
 
           <div className='pt-8 w-[90%] border-b-2'></div>
-          <div className='mt-4 sm:mt-7 md:mt-9 lg:mt-13 xl:mt-14'>
+          <div className='pt-4 sm:pt-7 md:pt-9 lg:pt-13 xl:pt-14'>
              <p className={`${myFonts.className} font-normal text-[16px]`}>
                 2022 Meubel House. All rights reverved
              </p></div>
