@@ -24,7 +24,7 @@ const Footer = () => {
                          Home</Link></button>
                         <button className='pt-4 lg:pt-8'><Link href='/shop'   target='_blank'  className={`${myFonts.className} font-medium text-[16px] text-black`}>
                          Shop  </Link></button>
-                        <button className='pt-4 lg:pt-8'><Link href='/about'  target='_blank'  className={`${myFonts.className} font-medium text-[16px] text-black  `}>
+                        <button className='pt-4 lg:pt-8'><Link href='/#'  target='_blank'  className={`${myFonts.className} font-medium text-[16px] text-black  `}>
                          About  </Link></button>
                          <button className='pt-4 lg:pt-8'><Link href='/contact' target='_blank'  className={`${myFonts.className} font-medium text-[16px] text-black`}>
                           Contact   </Link></button>
@@ -35,10 +35,13 @@ const Footer = () => {
 
                   <h1 className={`${myFonts.className} font-medium text-[20px] text-[#9F9F9F]`}>Help
                          <button className='pt-6 lg:pt-12'><p className={`${myFonts.className} font-medium text-[16px] text-black`}>
-                           Payment Options</p></button>
-                         <button className='pt-4 lg:pt-10'><p className={`${myFonts.className} font-medium text-[16px] text-black `}>                         Returns  </p></button>
+                          Payment Options</p></button>
                          <button className='pt-4 lg:pt-10'><p className={`${myFonts.className} font-medium text-[16px] text-black`}>
-                         Privacy Policies  </p></button>
+                          Returns  </p></button>
+                         <button className='pt-4 lg:pt-10'><p className={`${myFonts.className} font-medium text-[16px] text-black`}>
+                          Privacy Policies  </p></button>
+                          <button className='pt-4 lg:pt-10'><Link href='/account' target='_blank' className={`${myFonts.className} font-medium text-[16px] text-black`}>
+                          My Account</Link></button> 
                  </h1>
              </div>
 

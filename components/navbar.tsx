@@ -16,14 +16,14 @@ const Navbar = () => {
                            Home</Link></button>
                           <button><Link href='/shop'   target='_blank'  className={`${myFonts.className} font-medium text-[16px]`}>
                            Shop  </Link></button>
-                          <button><Link href='/about'  target='_blank'  className={`${myFonts.className} font-medium text-[16px]`}>
-                           About  </Link></button>
+                          <button><Link href='/#'  target='_blank'  className={`${myFonts.className} font-medium text-[16px]`}>
+                           About</Link></button>
                           <button><Link href='/contact' target='_blank'  className={`${myFonts.className} font-medium text-[16px]`}>
                           Contact   </Link></button>
               </ul>
        </div>
 
-      <div className='hidden lg:flex justify-end'>
+      <div className='hidden lg:flex justify-end px-10'>
             <Image src='/Group 1.png' alt='icons' width={247} height={28}  className='pt-2'/>
       </div>
 

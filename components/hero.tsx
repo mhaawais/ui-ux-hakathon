@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 import { Poppins } from 'next/font/google';
 
 const myFonts = Poppins({ subsets: ['latin'] ,weight:['400','500','600','700','800'] });
@@ -70,7 +71,7 @@ const Hero = () => {
                </div>
 
                <div className='w-full h-[250px] lg:h-[397px]'>
-                    <Image src='/Mask Group (1).png' alt='maskpic2' width={287} height={287} />
+                    <Image src='/Mask Groupaik.png' alt='maskpic2' width={287} height={287} />
                     <p  className={`${myFonts.className} text-[16px]`}>
                         Granite dining table with dining chair</p>
                       <h1  className={`${myFonts.className} font-medium text-[20px] lg:text-[24px]`}>
@@ -78,7 +79,7 @@ const Hero = () => {
                </div>
  
                <div className='w-full h-[250px] lg:h-[397px]'>
-                    <Image src='/Mask Group (2).png' alt='maskpic3' width={287} height={287} />
+                    <Image src='/Mask Groupdo.png' alt='maskpic3' width={287} height={287} />
                     <p  className={`${myFonts.className} text-[16px]`}>
                          Outdoor bar table and stool</p>
                       <h1  className={`${myFonts.className} font-medium text-[20px] lg:text-[24px]`}>
@@ -86,7 +87,7 @@ const Hero = () => {
                </div>
                    
                <div className='w-full h-[250px] lg:h-[397px]'>
-                    <Image src='/Mask Group (3).png' alt='maskpic4' width={287} height={287} />
+                    <Image src='/Mask Groupteen.png' alt='maskpic4' width={287} height={287} />
                     <p className={`${myFonts.className} text-[16px]`}>
                        Plain console with teak mirror</p>
                       <h1  className={`${myFonts.className} font-medium text-[20px] lg:text-[24px]`}>
@@ -118,8 +119,8 @@ const Hero = () => {
            <h2 className={`${myFonts.className} font-bold text-[34px] md:text-[48px]`}>
               Asgaard sofa
            </h2>
-            <button className='solid border-2 border-black'><p className={`${myFonts.className} text-[20px] px-10 py-4`}>
-              Order Now</p></button>
+            <button className='solid border-2 border-black'><Link href='/product' target='_blank' className={`${myFonts.className} text-[20px] px-10 py-3`}>
+              Order Now</Link></button>
                
           </div>
 
@@ -170,8 +171,10 @@ const Hero = () => {
         </div>
 
                 <div className='text-center mt-1 sm:mt-2 lg:mt-10'>
-                   <p  className={`${myFonts.className} font-medium text-[24px]`}>
-                      <span className='border-b-2 border-black'>View All Post</span></p>
+
+                <button><Link href='/blog'  target='_blank'  className={`${myFonts.className} font-medium text-[20px] border-b-2 border-black`}>
+                  View All Post </Link></button>
+
                  </div>
 
   </div>  
