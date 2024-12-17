@@ -78,7 +78,6 @@ const Account = () => {
                 </div> 
 
 
-
                </div>
           
           </div>

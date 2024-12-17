@@ -179,7 +179,6 @@ const Hero = () => {
 
   </div>  
 
-
      <div className='w-full relative'>
      
          <Image src='/Group 43.png' alt='bgimage' width={1440} height={450}  />
